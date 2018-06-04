@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C09A9F0D2085B7B50035BE45 /* TableViewConstructor.m in Sources */ = {isa = PBXBuildFile; fileRef = C09A9F0C2085B7B50035BE45 /* TableViewConstructor.m */; };
+		C09A9F102085B8660035BE45 /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C09A9F0F2085B8660035BE45 /* BaseViewModel.m */; };
+		C09A9F162085B8BF0035BE45 /* ConstructorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C09A9F152085B8BF0035BE45 /* ConstructorCell.m */; };
+		C09A9F1A2085BF190035BE45 /* NetworkApi.m in Sources */ = {isa = PBXBuildFile; fileRef = C09A9F192085BF190035BE45 /* NetworkApi.m */; };
+		C09A9F1D2085C5780035BE45 /* CellStyleA.m in Sources */ = {isa = PBXBuildFile; fileRef = C09A9F1C2085C5780035BE45 /* CellStyleA.m */; };
 		C0F0E603207A224600222E9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F0E602207A224600222E9B /* AppDelegate.m */; };
 		C0F0E606207A224600222E9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F0E605207A224600222E9B /* ViewController.m */; };
 		C0F0E609207A224600222E9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0F0E607207A224600222E9B /* Main.storyboard */; };
@@ -15,6 +20,7 @@
 		C0F0E611207A224600222E9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F0E610207A224600222E9B /* main.m */; };
 		C0F0E61B207A224600222E9B /* layerTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F0E61A207A224600222E9B /* layerTTests.m */; };
 		C0F0E626207A224600222E9B /* layerTUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F0E625207A224600222E9B /* layerTUITests.m */; };
+		C0F0E635207A227300222E9B /* Constructor.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F0E634207A227300222E9B /* Constructor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C09A9F0B2085B7B50035BE45 /* TableViewConstructor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewConstructor.h; sourceTree = "<group>"; };
+		C09A9F0C2085B7B50035BE45 /* TableViewConstructor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewConstructor.m; sourceTree = "<group>"; };
+		C09A9F0E2085B8660035BE45 /* BaseViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewModel.h; sourceTree = "<group>"; };
+		C09A9F0F2085B8660035BE45 /* BaseViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewModel.m; sourceTree = "<group>"; };
+		C09A9F142085B8BF0035BE45 /* ConstructorCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConstructorCell.h; sourceTree = "<group>"; };
+		C09A9F152085B8BF0035BE45 /* ConstructorCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConstructorCell.m; sourceTree = "<group>"; };
+		C09A9F172085B9680035BE45 /* DataDrivedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataDrivedView.h; sourceTree = "<group>"; };
+		C09A9F182085BF190035BE45 /* NetworkApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkApi.h; sourceTree = "<group>"; };
+		C09A9F192085BF190035BE45 /* NetworkApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkApi.m; sourceTree = "<group>"; };
+		C09A9F1B2085C5780035BE45 /* CellStyleA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellStyleA.h; sourceTree = "<group>"; };
+		C09A9F1C2085C5780035BE45 /* CellStyleA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellStyleA.m; sourceTree = "<group>"; };
 		C0F0E5FE207A224600222E9B /* layerT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = layerT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0F0E601207A224600222E9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C0F0E602207A224600222E9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +68,8 @@
 		C0F0E621207A224600222E9B /* layerTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = layerTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0F0E625207A224600222E9B /* layerTUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = layerTUITests.m; sourceTree = "<group>"; };
 		C0F0E627207A224600222E9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0F0E633207A227300222E9B /* Constructor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constructor.h; sourceTree = "<group>"; };
+		C0F0E634207A227300222E9B /* Constructor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Constructor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +124,19 @@
 				C0F0E602207A224600222E9B /* AppDelegate.m */,
 				C0F0E604207A224600222E9B /* ViewController.h */,
 				C0F0E605207A224600222E9B /* ViewController.m */,
+				C0F0E633207A227300222E9B /* Constructor.h */,
+				C0F0E634207A227300222E9B /* Constructor.m */,
+				C09A9F0B2085B7B50035BE45 /* TableViewConstructor.h */,
+				C09A9F0C2085B7B50035BE45 /* TableViewConstructor.m */,
+				C09A9F182085BF190035BE45 /* NetworkApi.h */,
+				C09A9F192085BF190035BE45 /* NetworkApi.m */,
+				C09A9F142085B8BF0035BE45 /* ConstructorCell.h */,
+				C09A9F152085B8BF0035BE45 /* ConstructorCell.m */,
+				C09A9F1B2085C5780035BE45 /* CellStyleA.h */,
+				C09A9F1C2085C5780035BE45 /* CellStyleA.m */,
+				C09A9F0E2085B8660035BE45 /* BaseViewModel.h */,
+				C09A9F0F2085B8660035BE45 /* BaseViewModel.m */,
+				C09A9F172085B9680035BE45 /* DataDrivedView.h */,
 				C0F0E607207A224600222E9B /* Main.storyboard */,
 				C0F0E60A207A224600222E9B /* Assets.xcassets */,
 				C0F0E60C207A224600222E9B /* LaunchScreen.storyboard */,
@@ -265,8 +297,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C09A9F162085B8BF0035BE45 /* ConstructorCell.m in Sources */,
+				C09A9F102085B8660035BE45 /* BaseViewModel.m in Sources */,
 				C0F0E606207A224600222E9B /* ViewController.m in Sources */,
+				C09A9F1D2085C5780035BE45 /* CellStyleA.m in Sources */,
+				C09A9F1A2085BF190035BE45 /* NetworkApi.m in Sources */,
+				C09A9F0D2085B7B50035BE45 /* TableViewConstructor.m in Sources */,
 				C0F0E611207A224600222E9B /* main.m in Sources */,
+				C0F0E635207A227300222E9B /* Constructor.m in Sources */,
 				C0F0E603207A224600222E9B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
